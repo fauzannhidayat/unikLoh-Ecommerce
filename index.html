@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UnikLoh</title>
+
+    <!-- Link bootstrap css -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="dist/output.css" />
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;0,600;1,200;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="" style="background-color: red;">
+
+    <header class= "absolute top-0 left-0 w-full flex items-center z-10 lg:h-[80px]">
+        <div class="container">
+          <div class="flex items-center justify-between relative">
+            <div class="px-4">
+              <a href="#home" class="font-bold text-lg block text-light py-3 ">UnikLoh.</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="flex items-center px-4">
+          <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+            
+              <span class="hamburger-line origin-top-left transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
+          </button>
+  
+          <nav id="nav-menu" class="hidden absolute py-3 bg-slate-600 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full  lg:block lg:bg-transparent lg:static lg:text-white lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex ">
+              <li class="group">
+                <a href="#home" class="text-base  mx-8 flex group-hover:text-teal-600">HOME</a>
+              </li>
+              
+              <li class="group">
+                <a href="#produk" class="text-base  mx-8 flex group-hover:text-teal-600">Produk</a>
+              </li>
+              
+            </ul>
+          </nav>
+        </div>
+  
+    </header>
+  
+      <!-- HERO SECTION START -->
+      <section id="home" class="">
+        
+        <div class="container my-[100px] w-full">
+          <div class="flex flex-wrap">
+      
+            <div class="mt-4 mx-auto text-center">
+              <h1 class="text-light text-4xl mb-3 "> Mau cari barang yang unik?</h1>
+            
+                <p class="text-light p-3 ">Cari di <span style="color: red;" class="bg-white p-1">UnikLoh</span>  Aja.</p>
+                <p class="text-light pb-3">Dijamin Unik Loh</p>
+              
+            </div>
+          </div>
+      
+          <div class="flex md:p-10 ">
+                  
+            <a href="#produk" class="text-black font-semibold p-2 bg-teal-300 rounded-full mx-auto font-bold  btn btn-outline-success">LIHAT PRODUK <i data-feather="arrow-right" class="inline-block text-black"></i>
+            </a>
+            </div>
+        </div>
+      </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgb(226 232 240)" fill-opacity="1" d="M0,224L17.1,213.3C34.3,203,69,181,103,186.7C137.1,192,171,224,206,240C240,256,274,256,309,250.7C342.9,245,377,235,411,240C445.7,245,480,267,514,245.3C548.6,224,583,160,617,133.3C651.4,107,686,117,720,149.3C754.3,181,789,235,823,229.3C857.1,224,891,160,926,128C960,96,994,96,1029,85.3C1062.9,75,1097,53,1131,42.7C1165.7,32,1200,32,1234,48C1268.6,64,1303,96,1337,122.7C1371.4,149,1406,171,1423,181.3L1440,192L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z"></path></svg>
+    
+    <!-- HERO SECTION END -->
+  
+    <!-- PRODUK LAKIK start -->
+  
+    <section id="produk" class="pt-36 pb-16 bg-slate-200">
+        <div class="container">
+          <div class="w-full">
+            <div class="max-w-xl mx-auto text-center mb-10">
+              <h4 class="font-semibold text-lg text-teal-600">PRODUK</h4>
+              <h2 class="font-bold text-xl">Aksesoris</h2>
+            </div>
+          </div>
+          
+          <div class="container pt-4">
+            <div class="row ">
+              <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="rounded-md shadow-md overflow-hidden">
+                  <div style="background-image: url(/img/antingmangkok.jpeg); background-repeat: no-repeat; background-size: cover;  height: 200px;" class="w-full font-semibold text-xl text-center text-white"></div>
+                  <p class="flex justify-center">ANTING MANGKOK</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 mb-4">
+
+                <div class="rounded-md shadow-md overflow-hidden">
+                  <div style="background-image: url(/img/aksesoris1.jpg); background-repeat: no-repeat; background-size: cover; height: 200px;" class="font-semibold text-xl text-center text-white"></div>
+                  <p class="flex justify-center">KACAMATA TANGAN</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 mb-4">
+
+                <div class="rounded-md shadow-md overflow-hidden">
+                  <div style="background-image: url(/img/aksesoris2.jpg); background-repeat: no-repeat; background-size: cover; height: 200px;" class="font-semibold text-xl text-center text-white"></div>
+                  <p class="flex justify-center">HIASAN</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 mb-4">
+
+                <div class="rounded-md shadow-md overflow-hidden">
+                  <div style="background-image: url(/img/aksesoris3.jpeg); background-repeat: no-repeat; background-size: cover; height: 200px;" class="font-semibold text-xl text-center text-white"></div>
+                  <p class="flex justify-center">KACAMATA LOVE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+          
+
+        <!-- produk PAKAIAN -->
+        <div class="container">
+          <div class="w-full pt-4 ">
+            <div class="max-w-xl mx-auto text-center mb-5
+            ">
+              <h4 class="font-semibold text-lg text-teal-600">PRODUK</h4>
+              <h2 class="font-bold text-xl">Pakaian</h2>
+            </div>
+          </div>
+    
+          <div class="container pt-4">
+            <div class="row ">
+              <div class="col-12 col-sm-6 col-md-3 mb-4">
+                <div class="rounded-md shadow-md overflow-hidden">
+                  <div style="background-image: url(/img/pakaian1.jpeg); background-repeat: no-repeat; background-size: cover; height: 200px;" class="font-semibold text-xl text-center text-white"></div>
+                  <p class="flex justify-center">BAJU BENANG</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 mb-4">
+
+                <div class="rounded-md shadow-md overflow-hidden">
+                  <div style="background-image: url(/img/pakaian2.jpeg); background-repeat: no-repeat; background-size: cover; height: 200px;" class="font-semibold text-xl text-center text-white"></div>
+                  <p class="flex justify-center">BAJU AIRBAG</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 mb-4">
+
+                <div class="rounded-md shadow-md overflow-hidden">
+                  <div style="background-image: url(/img/pakaian3.jpeg); background-repeat: no-repeat; background-size: cover; height: 200px;" class="font-semibold text-xl text-center text-white"></div>
+                  <p class="flex justify-center">BAJU RUMPUT</p>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3 mb-4">
+
+                <div class="rounded-md shadow-md overflow-hidden">
+                  <div style="background-image: url(/img/pakaian4.jpg); background-repeat: no-repeat; background-size: cover; height: 200px;" class="font-semibold text-xl text-center text-white"></div>
+                  <p class="flex justify-center">BAJU BONEKA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- produk anak anak -->
+        
+        
+
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+      <div class="container mx-auto">
+          <div class="flex flex-wrap justify-between items-center">
+              <div class="my-2 w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0">
+                  <h3 class="text-lg font-semibold mb-2">Tentang Kami</h3>
+                  <p>UnikLoh adalah platform untuk menemukan barang-barang unik dari berbagai kategori seperti aksesoris, pakaian, dan banyak lagi.</p>
+              </div>
+              <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0">
+                  <h3 class="text-lg font-semibold mb-2">Kontak</h3>
+                  <p>Email: info@unikloh.com<br>Telepon: 123-456-7890<br>Alamat: Jl. Contoh No. 123, Kota, Negara</p>
+              </div>
+              <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0">
+                  <h3 class="text-lg font-semibold mb-2">Ikuti Kami</h3>
+                  <ul class="flex">
+                      <li class="m-2"><a href="#" ><i data-feather="facebook" class="inline-block text-white"></i></a></li>
+                      <li class="m-2"><a href="#" ><i data-feather="twitter" class="inline-block text-white"></i></a></li>
+                      <li class="m-2"><a href="#" ><i data-feather="instagram" class="inline-block text-white"></i></a></li>
+                  </ul>
+              </div>
+              <div class="w-full md:w-1/2 lg:w-1/4 px-4 mb-4 md:mb-0">
+                  <h3 class="text-lg font-semibold mb-2">Newsletter</h3>
+                  <form action="#" method="POST" class="mb-2">
+                      <input type="email" name="email" placeholder="Masukkan email" class="border p-2 w-full">
+                      <button type="submit" class="bg-teal-500 text-white px-4 py-2 mt-2">Langganan</button>
+                  </form>
+                  <p>Dapatkan update terbaru langsung ke email Anda.</p>
+              </div>
+          </div>
+      </div>
+      <div class="text-center mt-8">
+          <p>&copy; 2024 UnikLoh. All Rights Reserved.</p>
+      </div>
+  </footer>
+  
+  
+    <!-- about end -->
+    <script src="js/bootstrap.js"></script>
+    <script src="dist/js/script.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
